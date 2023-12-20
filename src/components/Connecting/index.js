@@ -3,8 +3,11 @@ import { ChakraProvider } from "@chakra-ui/react";
 import { Box } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
 import { FiLoader } from "react-icons/fi";
+import { useEffect } from "react";
+
 function ConnectingToDoctors() {
   const navigate = useNavigate();
+  
   setTimeout(() => navigate("/doctorsfound"), 5000);
   return (
     <ChakraProvider>
@@ -28,7 +31,8 @@ function ConnectingToDoctors() {
         </div>
         <div className="ml-[17%] p-[4%] bg-[#CDE4CB8F] overflow-y-auto mt-[2%] w-[300px] md:w-[600px] lg:w-[1000px] h-[500px] shadow-inner shadow-slate-900 rounded-2xl justify-center">
           <h1 className="text-xl font-semibold text-center">
-            Finding a gastroenterologist for you..
+            
+            Finding a Dermatologist for you..
           </h1>
           <FiLoader className="ml-[40%] mt-[10%]" size={150} />
         </div>

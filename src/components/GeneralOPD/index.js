@@ -4,7 +4,7 @@ import { Box } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
 function GeneralOPD() {
   const navigate = useNavigate();
-  setTimeout(() => navigate("/connectingtodocters"), 5000);
+  //setTimeout(() => navigate("/connectingtodocters"), 5000);
   return (
     <ChakraProvider>
       <div>

@@ -3,6 +3,7 @@ import { ChakraProvider } from "@chakra-ui/react";
 import { Box } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
 function Dashboard() {
+  const navigate = useNavigate();
   return (
     <ChakraProvider>
       <div>
@@ -18,7 +19,7 @@ function Dashboard() {
             color="white"
             px={8}
             h={10}
-            //   onClick={() => navigate("/login")}
+             onClick={() => navigate("/")}
           >
             Log Out
           </Box>

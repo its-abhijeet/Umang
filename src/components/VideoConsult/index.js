@@ -11,7 +11,7 @@ function VideoConsult() {
       <div>
         <div className="flex flex-row justify-evenly ml-[5%] items-center">
           <h2 className="text-[56px] font-bold drop-shadow-lg text-[#CB60DB] text-center ">
-            You are connected to Dr. Rohit
+            You are connected
           </h2>
         </div>
         <h1 className="text-3xl font-semibold text-center">
